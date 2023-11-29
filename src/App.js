@@ -1,10 +1,12 @@
 import "./App.css";
-import Tabl from "./Tabl";
+import ToDoList from "./ToDoList";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
-    <>
-      <Tabl />
-    </>
+    <div>
+      <ToDoList />
+    </div>
   );
 }
 
